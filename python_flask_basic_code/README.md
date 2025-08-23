@@ -17,7 +17,7 @@ pip install -r .\requirements.txt
 
 ## Run flask app
 ```bash
-flask run --host=0.0.0.0 --port=80
+flask --app main run --host=0.0.0.0 --port=80
 ```
 
 ```bash
