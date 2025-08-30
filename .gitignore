@@ -2,3 +2,5 @@
 __pycache__/
 
 
+./python_flask_get_post_code/venv/*
+__pycache__/
