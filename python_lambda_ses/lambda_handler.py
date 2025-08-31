@@ -4,7 +4,7 @@ import html
 import boto3
 
 # Use SESv2 (recommended)
-ses = boto3.client("sesv2", region_name=os.environ.get("AWS_REGION") or os.environ.get("AWS_DEFAULT_REGION"))
+ses = boto3.client("sesv2", region_name="us-east-1")    # Change region as needed
 
 FROM_EMAIL = os.environ.get("FROM_EMAIL")
 DEFAULT_TO = os.environ.get("DEFAULT_TO")  # optional
